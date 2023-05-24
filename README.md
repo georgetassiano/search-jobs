@@ -21,6 +21,11 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Run at docker
+```sh
+docker run --rm --name vue-cli -it -p 8080:8080 -v ${PWD}:/var/www georgemelo/vue-cli:latest /bin/bash
+```
+
 ## Project Setup
 
 ```sh
